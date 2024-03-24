@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "leafmealone",
+  "version": "${version}",
+  "name": "Leaf Me Alone",
+  "description": "Allows any rideable entities with controlling it passenger to phase trough leaves",
+  "authors": [
+    "Nord_Act"
+  ],
+  "contact": {
+    "repo": "https://github.com/NordAct/Leaf-Me-Alone"
+  },
+  "license": "MIT",
+  "icon": "assets/leafmealone/leafmealone.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "nordmods.leafmealone.LeafMeAlone"
+    ]
+  },
+  "mixins": [
+    "leafmealone.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.19.2"
+  }
+}
