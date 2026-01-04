@@ -1,5 +1,5 @@
 modLoader = "javafml"
-loaderVersion = "[47,)"
+loaderVersion = "[4,)"
 issueTrackerURL = "https://github.com/NordAct/Leaf-Me-Alone/issues"
 license = "MIT"
 
@@ -13,16 +13,19 @@ Allows any rideable entities with controlling it passenger to phase trough leave
 '''
 logoFile = "assets/leafmealone/leafmealone.png"
 
+[[mixins]]
+config = "leafmealone.mixins.json"
+
 [[dependencies.leafmealone]]
-modId = "forge"
-mandatory = true
-versionRange = "[47,)"
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
 ordering = "NONE"
 side = "BOTH"
 
 [[dependencies.leafmealone]]
 modId = "minecraft"
-mandatory = true
-versionRange = "[1.20.1,)"
+type = "required"
+versionRange = "[1.21.1,)"
 ordering = "NONE"
 side = "BOTH"
