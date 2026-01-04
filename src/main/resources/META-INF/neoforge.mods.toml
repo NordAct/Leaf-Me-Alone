@@ -17,15 +17,8 @@ logoFile = "assets/leafmealone/leafmealone.png"
 config = "leafmealone.mixins.json"
 
 [[dependencies.leafmealone]]
-modId = "neoforge"
-type = "required"
-versionRange = "[21.1,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies.leafmealone]]
 modId = "minecraft"
 type = "required"
-versionRange = "[1.21.1,)"
+versionRange = "[26.1-snapshot-1,)"
 ordering = "NONE"
 side = "BOTH"
